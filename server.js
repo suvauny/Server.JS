@@ -30,4 +30,4 @@ app.post("/create-payment-intent", async (req, res) => {
   });
 });
 
-app.listen(3005, () => console.log("Node server listening on port 3005!"));
+app.listen(22, () => console.log("Node server listening on port 22!"));
