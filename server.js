@@ -29,3 +29,5 @@ app.post("/create-payment-intent", async (req, res) => {
     clientSecret: paymentIntent.client_secret,
   });
 });
+
+app.listen(3000, () => console.log("Node server listening on port 3000!"));
