@@ -29,5 +29,3 @@ app.post("/create-payment-intent", async (req, res) => {
     clientSecret: paymentIntent.client_secret,
   });
 });
-
-app.listen(8080, () => console.log("Node server listening on port 8080!"));
